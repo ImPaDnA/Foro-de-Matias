@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi foro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> <!--Aquí muestra el título-->
+        <h1>Foro</h1>
+        <p>Deja tu mensaje en este foro y conversa con gente</p>
+    </header>
+
+    <main>
+        <form id="messageForm">
+            <input type="text" id="username" placeholder="tu nombre" required />
+            <textarea id="message" placeholder="Escribe tu mensaje..." required></textarea>
+            <button type="submit">Publicar</button>
+        </form>
+
+        <section id="messages">
+            <!-- Aquí aparecerán los mensajes -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
